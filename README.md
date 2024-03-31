@@ -1,7 +1,3 @@
-Certainly! Here's a template for your README file:
-
----
-
 # Sentiment Analysis of Food Waste Conversations on Countries with Actual Food Balance Data
 
 ## Overview

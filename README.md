@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 - [Ankur Mangroliya](https://github.com/AnkurMangroliya)
 - [Akshar Patel](https://github.com/akshar2223)
 - [Arjun Patel](https://github.com/Arjun100701)
-- [Happy Maheta](https://github.com/HappyMehta)
+- [Happy Mehta](https://github.com/HappyMehta)
 
 ## License
 

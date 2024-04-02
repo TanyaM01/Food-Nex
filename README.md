@@ -16,6 +16,7 @@ To run this project locally, follow these steps:
 2. **Set up virtual environment (optional but recommended):**
    ```bash
 
+   cd Food Nexus
    python3 -m venv my_env
    source my_env/bin/activate
    ```

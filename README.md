@@ -28,14 +28,6 @@ To run this project locally, follow these steps:
 
 4. **Access the application:**
    Open your web browser and navigate to [http://localhost:8000](http://localhost:8000) to access the sentiment analysis application.
-
-## Contributors
-
-- [Ankur Mangroliya](https://github.com/AnkurMangroliya)
-- [Akshar Patel](https://github.com/akshar2223)
-- [Arjun Patel](https://github.com/Arjun100701)
-- [Happy Mehta](https://github.com/HappyMehta)
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

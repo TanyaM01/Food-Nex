@@ -52,13 +52,18 @@ from nltk.tokenize import sent_tokenize
 from collections import Counter
 import re
 
+
 # Define the absolute paths for the models and vectorizers
-DOCUMENT_MODEL_PATH = r'C:\Users\ankur\OneDrive\Desktop\Sem 2\adt\project\code_project\sentiment_analysis_app\document_sentiment_model.pkl'
-ASPECT_MODEL_PATH = r'C:\Users\ankur\OneDrive\Desktop\Sem 2\adt\project\code_project\sentiment_analysis_app\aspect_sentiment_model.pkl'
-SENTENCE_MODEL_PATH = r'C:\Users\ankur\OneDrive\Desktop\Sem 2\adt\project\code_project\sentiment_analysis_app\sentence_sentiment_model.pkl'
-DOCUMENT_VECTORIZER_PATH = r'C:\Users\ankur\OneDrive\Desktop\Sem 2\adt\project\code_project\sentiment_analysis_app\document_vectorizer.pkl'
-ASPECT_VECTORIZER_PATH = r'C:\Users\ankur\OneDrive\Desktop\Sem 2\adt\project\code_project\sentiment_analysis_app\aspect_vectorizer.pkl'
-SENTENCE_VECTORIZER_PATH = r'C:\Users\ankur\OneDrive\Desktop\Sem 2\adt\project\code_project\sentiment_analysis_app\sentence_vectorizer.pkl'
+
+DOCUMENT_MODEL_PATH = "E:/TanyaE/TMmasters/Term-3/Resumegithub/Food-Nexus/sentiment_analysis_app/document_sentiment_model.pkl"
+ASPECT_MODEL_PATH = "E:/TanyaE/TMmasters/Term-3/Resumegithub/Food-Nexus/sentiment_analysis_app/aspect_sentiment_model.pkl"
+SENTENCE_MODEL_PATH = "E:/TanyaE/TMmasters/Term-3/Resumegithub/Food-Nexus/sentiment_analysis_app/sentence_sentiment_model.pkl"
+DOCUMENT_VECTORIZER_PATH = "E:/TanyaE/TMmasters/Term-3/Resumegithub/Food-Nexus/sentiment_analysis_app/document_vectorizer.pkl"
+ASPECT_VECTORIZER_PATH = "E:/TanyaE/TMmasters/Term-3/Resumegithub/Food-Nexus/sentiment_analysis_app/aspect_vectorizer.pkl"
+SENTENCE_VECTORIZER_PATH = "E:/TanyaE/TMmasters/Term-3/Resumegithub/Food-Nexus/sentiment_analysis_app/sentence_vectorizer.pkl"
+
+
+
 
 # Load the models and vectorizers only once during the module import
 document_model = joblib.load(DOCUMENT_MODEL_PATH)
